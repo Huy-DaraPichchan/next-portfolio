@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
-import { FaStackOverflow } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { Card, CardContent } from "@/components/ui/card";
