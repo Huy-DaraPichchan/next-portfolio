@@ -7,7 +7,6 @@ const skills = [
 	"React",
 	"NextJs",
 	"Python",
-	"FastAPI",
 	"Django",
 	"TailwindCSS",
 	"Docker",

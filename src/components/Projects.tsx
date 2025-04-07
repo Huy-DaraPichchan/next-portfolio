@@ -10,7 +10,7 @@ export const projects = [
 		title: "YL-POS",
 		description:
 			"A POS system to manage sale and track inventory for coffee shop.",
-		tech: "Django",
+		tech: "Django Framework",
 		link: "",
 	},
 	{
@@ -20,28 +20,28 @@ export const projects = [
 		link: "",
 	},
 	{
-		title: "QueueR",
-		description: "A native mobile app for tracking ordering number.",
-		tech: "Kotlin",
-		link: "https://github.com/incubation-center/B8-Native--Mobile-Application--Group2",
+		title: "Domner",
+		description: "An adventurous side-scrolling mobile game for Android.",
+		tech: "Godot Engine",
+		link: "",
 	},
 	{
 		title: "Pollify",
 		description:
 			"A kind of social media app that allows people to create polls and votes within communities",
 		tech: "React",
-		link: "https://github.com/incubation-center/B8-FullStack--Website--Group6",
+		link: "",
 	},
 ];
 
 const techColors = {
 	TypeScript: "bg-blue-500",
-	React: "bg-green-500",
+	React: "bg-red-500",
 	Python: "bg-yellow-900",
 	Javascript: "bg-yellow-300",
-	Django: "bg-red-500",
+	"Django Framework": "bg-green-700",
 	"Odoo ERP": "bg-purple-500",
-	Kotlin: "bg-cyan-500",
+	"Godot Engine": "bg-cyan-500",
 };
 
 export const Projects = () => {
@@ -76,13 +76,13 @@ export const Projects = () => {
 											{p.tech}
 										</span>
 									</div>
-									<Link
+									{/* <Link
 										href={p.link}
 										className="flex items-center gap-2 text-sm text-primary hover:underline"
 									>
 										View Project
 										<ExternalLink className="inline-block size-3" />
-									</Link>
+									</Link> */}
 								</div>
 							</div>
 						</CardContent>

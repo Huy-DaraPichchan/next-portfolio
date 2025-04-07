@@ -8,10 +8,10 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
 	{
-		role: "Software Engineer",
+		role: "Frontend Web Developer",
 		company: "Kirirom Digital Japan",
 		logo: "/kirirom.png",
-		duration: "2024 - Present",
+		duration: "Aug 2024 - Present",
 		description:
 			"Developing an AI-powered web application that automatically generate and post news video about AI.",
 		link: "",
@@ -21,7 +21,7 @@ const jobs = [
 		role: "Software Developer",
 		company: "Salacyber",
 		logo: "/salacyberlogo.png",
-		duration: "2023 - 2024",
+		duration: "Jan 2024 - Aug 2024",
 		description:
 			"Handling requirement gathering and the development of web applications such as a POS system.",
 		link: "",
@@ -29,9 +29,9 @@ const jobs = [
 	},
 	{
 		role: "Software Developer",
-		company: "Salacyber",
-		logo: "/salacyberlogo.png",
-		duration: "2023 - 2024",
+		company: "Karpia",
+		logo: "/karpialogo.png",
+		duration: "Jan 2024 - Feb 2024",
 		description:
 			"Handling requirement gathering and the development of a landing page",
 		link: "https://karpia.co",
@@ -43,12 +43,12 @@ const jobs = [
 		],
 	},
 	{
-		role: "Odoo Developer",
-		company: "Kirirom Institute of Technology",
-		logo: "/kitlogo.png",
-		duration: "2021 - 2023",
+		role: "Software Developer",
+		company: "A2A TOWN (Cambodia) Co., Ltd",
+		logo: "/a2alogo.png",
+		duration: "Sep 2021 - Nov 2023",
 		description:
-			"Code and Led the development and maintenance of various modules especially Market List, Purchase Order & Request.",
+			"Developing, customizing, and maintaining various modules such as Market List, Purchase Order & Request with Odoo ERP Framework ",
 		link: "",
 		images: ["/odoo-13.png"],
 	},
