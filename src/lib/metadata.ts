@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 export function constructMetadata({
   title = 'Huy DaraPichchan',
   description = "A dedicated software engineer with over 3 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn and grow.",
-  image = '/thumbnail.png',
+  image = '/portrait1.png',
   icons = '/portrait1.png',
   noIndex = false
 }: {
@@ -20,7 +20,18 @@ export function constructMetadata({
     openGraph: {
       title,
       description,
-      images: [image]
+      url: 'https://www.darapichchan.xyz',
+      siteName: 'Huy DaraPichchan',
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: 'Preview image of Huy DaraPichchan'
+        }
+      ],
+      locale: 'en_US',
+      type: 'website'
     },
     // twitter: {
     //   card: 'summary_large_image',
