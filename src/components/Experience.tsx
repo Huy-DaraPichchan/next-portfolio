@@ -13,9 +13,9 @@ const jobs = [
 		logo: "/kirirom.png",
 		duration: "Aug 2024 - Present",
 		description:
-			"Developing an AI-powered web application that allow users to preview, download, and share the generated AI videos.",
+			"Developing an AI-powered web application that allow users to preview, download, and share the generated videos.",
 		link: "",
-		images: ["/micholin1.png", "/micholin2.png", "/micholin3.png"],
+		images: ["/swen1.png", "/swen2.png"],
 	},
 	{
 		role: "Software Developer",
