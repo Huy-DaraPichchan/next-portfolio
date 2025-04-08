@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 
 
 export function constructMetadata({
-  title = 'Osei Kwakye',
-  description = "I am a software engineer with a passion for building scalable and efficient web applications.",
+  title = 'Huy DaraPichchan',
+  description = "A dedicated software engineer with over 3 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn and grow.",
   image = '/thumbnail.png',
-  icons = '/kwaku.jpeg',
+  icons = '/portrait1.png',
   noIndex = false
 }: {
   title?: string
@@ -22,15 +22,15 @@ export function constructMetadata({
       description,
       images: [image]
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [image],
-      creator: '@kwakuoseikwakye'
-    },
+    // twitter: {
+    //   card: 'summary_large_image',
+    //   title,
+    //   description,
+    //   images: [image],
+    //   creator: '@huydarapichchan'
+    // },
     icons,
-    metadataBase: new URL('https://www.kwakuoseikwakye.com'),
+    metadataBase: new URL('https://www.darapichchan.xyz'),
     ...(noIndex && {
       robots: {
         index: false,
