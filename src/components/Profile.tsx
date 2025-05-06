@@ -53,16 +53,17 @@ export const Profile = () => {
 						{!isDesktopOrLaptop && <ThemeSwitcher />}
 					</div>
 
-					<p className="mt-2 text-start text-sm text-muted-foreground">
-						I am passionate about acquiring new skills or learning
-						about new technology. I am strongly interested in Web
-						development and developing scalable systems for
-						business. I am capable of communicating with other
-						people using the English language very well. As a
-						developer, I always try to use my skills and passion to
-						make a good impact on many projects and businesses out
-						there.
+					<p className="mt-2 text-start italic text-sm text-muted-foreground">
+						"Learning never ends." - Me.
 					</p>
+
+					<p className="mt-2 text-start text-sm text-muted-foreground">
+						I'm passionate about learning new technologies, building
+						scalable solutions, and using my skills to create
+						meaningful impact in business. I communicate effectively
+						in English and enjoy collaborating with others.
+					</p>
+
 					<Button className="mt-4 w-full" asChild>
 						{/* TODO: Add resume */}
 						{/* TODO: Add link to schedule a call with you using Calendly or Cal */}
