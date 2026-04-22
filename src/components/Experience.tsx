@@ -8,10 +8,20 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
 	{
+		role: "Software Engineer",
+		company: "Saambok",
+		logo: "/saambok.png",
+		duration: "June 2025 - Present",
+		description:
+			"Developing an HR management system to keep track of attendance, generate report and payroll.",
+		link: "",
+		images: ["/hrms-clockin1.png", "/hrms-roster1.png", "/hrms-att-rec1.png"],
+	},
+	{
 		role: "Frontend Web Developer",
 		company: "Kirirom Digital Japan",
 		logo: "/kirirom.png",
-		duration: "Aug 2024 - Present",
+		duration: "Aug 2024 - June 2025",
 		description:
 			"Developing an AI-powered web application that allow users to preview, download, and share the generated videos.",
 		link: "",

@@ -7,6 +7,13 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
 	{
+		title: "Saambok HRMS",
+		description:
+			"A HR management system to keep track of attendance, generate report and payroll",
+		tech: "Django Framework",
+		link: "",
+	},
+	{
 		title: "YL-POS",
 		description:
 			"A POS system to manage sale and track inventory for coffee shop.",
@@ -28,7 +35,7 @@ export const projects = [
 	{
 		title: "Pollify",
 		description:
-			"A kind of social media app that allows people to create polls and votes within communities",
+			"A social media app that allows people to create polls and votes within communities",
 		tech: "React",
 		link: "",
 	},
@@ -47,7 +54,7 @@ const techColors = {
 export const Projects = () => {
 	return (
 		<>
-			<h2 className="text-xl font-bold mb-4">Featured Projects</h2>
+			<h2 className="text-xl font-bold mb-4">Personal Projects</h2>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
 				{projects.map((p, i) => (
 					<Card key={i}>
