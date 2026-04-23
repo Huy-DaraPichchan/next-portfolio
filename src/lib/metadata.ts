@@ -1,11 +1,28 @@
 import { Metadata } from 'next'
 
+const DEFAULT_SITE_URL = 'https://next-portfolio-git-main-huydarapichchans-projects.vercel.app'
+
+function getSiteUrl() {
+  const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? process.env.SITE_URL
+
+  if (!configuredSiteUrl) {
+    return DEFAULT_SITE_URL
+  }
+
+  const normalizedSiteUrl = configuredSiteUrl.replace(/\/$/, '')
+
+  if (normalizedSiteUrl.startsWith('http://') || normalizedSiteUrl.startsWith('https://')) {
+    return normalizedSiteUrl
+  }
+
+  return `https://${normalizedSiteUrl}`
+}
 
 export function constructMetadata({
   title = 'Huy DaraPichchan',
-  description = "A dedicated software engineer with over 3 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn and grow.",
-  image = '/portrait1.png',
-  icons = '/portrait1.png',
+  description = "A dedicated software engineer with more than 4 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn, grow and deliver.",
+  image = '/portrait1.jpg',
+  icons = '/portrait1.jpg',
   noIndex = false
 }: {
   title?: string
@@ -14,13 +31,18 @@ export function constructMetadata({
   icons?: string
   noIndex?: boolean
 } = {}): Metadata {
+  const siteUrl = getSiteUrl()
+
   return {
     title,
     description,
+    alternates: {
+      canonical: siteUrl
+    },
     openGraph: {
       title,
       description,
-      url: 'https://www.darapichchan.xyz',
+      url: siteUrl,
       siteName: 'Huy DaraPichchan',
       images: [
         {
@@ -41,7 +63,7 @@ export function constructMetadata({
     //   creator: '@huydarapichchan'
     // },
     icons,
-    metadataBase: new URL('https://www.darapichchan.xyz'),
+    metadataBase: new URL(siteUrl),
     ...(noIndex && {
       robots: {
         index: false,
