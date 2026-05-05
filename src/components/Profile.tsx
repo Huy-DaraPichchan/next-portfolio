@@ -46,7 +46,7 @@ export const Profile = () => {
 									Huy DaraPichchan
 								</h1>
 								<p className="text-sm md:text-base text-muted-foreground">
-									Software Engineer
+									Software Developer
 								</p>
 							</div>
 						</div>

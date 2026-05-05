@@ -15,7 +15,7 @@ export const AboutMe = () => {
 				<p className="text-muted-foreground">
 					{/* Write 1-2 sentences about yourself */}
 					I am a software
-					engineer with a passion for solving the world&apos;s problem
+					developer with a passion for solving the world&apos;s problem
 					through technology. 🌍💻😎
 				</p>
 			</CardContent>

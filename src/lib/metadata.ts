@@ -20,7 +20,7 @@ function getSiteUrl() {
 
 export function constructMetadata({
   title = 'Huy DaraPichchan',
-  description = "A dedicated software engineer with more than 4 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn, grow and deliver.",
+  description = "A dedicated software developer with more than 4 years of experience in modern software development across local and international teams, recognized for strong time management, a collaborative mindset, and a continuous drive to learn, grow and deliver.",
   image = '/portrait1.jpg',
   icons = '/portrait1.jpg',
   noIndex = false

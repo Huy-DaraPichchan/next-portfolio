@@ -8,7 +8,7 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
 	{
-		role: "Software Engineer",
+		role: "Fullstack Developer",
 		company: "Saambok",
 		logo: "/saambok.png",
 		duration: "June 2025 - Present",
