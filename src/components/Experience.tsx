@@ -9,7 +9,7 @@ import { JobImages } from "@/components/JobImages";
 const jobs = [
 	{
 		role: "Fullstack Developer",
-		company: "Saambok",
+		company: "Zeng 18 (Emart 24)",
 		logo: "/saambok.png",
 		duration: "June 2025 - Present",
 		description:

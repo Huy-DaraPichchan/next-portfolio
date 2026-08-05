@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
 	{
-		title: "Saambok HRMS",
+		title: "SuperApp",
 		description:
 			"A HR management system to keep track of attendance, generate report and payroll",
 		tech: "Django Framework",
